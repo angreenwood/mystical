@@ -4,7 +4,7 @@ body {
 }
 
 body, footer, .hero-body {
-  background-color: rgb(10, 25, 47) !important;
+  background-color: #222222 !important;
 }
 
 a {
@@ -24,21 +24,28 @@ p {
   color: rgba(139, 180, 216, 0.94);
 }
 
+iframe{
+  height:450px;
+  background-color: #383838;
+}
 .sidebar {
-  background-color: rgb(23, 42, 69);
+  background-color: #383838;
   display: flex;
   align-items: center;
   flex-direction: column;
   border-radius: 5px;
-  color: rgb(136, 146, 176);
+  color: #3fc950;
   opacity: 1;
 }
 
-
+.social-icons{
+  color:grey;
+}
 .image-overlay {
   background: url('https://i.imgur.com/SsVBVWk.png') 20%;
   opacity: 0.5;
 }
+
 
 .sidebar-image {
   width: 150px;
@@ -54,12 +61,12 @@ p {
 }
 
 .sidebar-link:hover {
-  color: rgb(230, 241, 255);
+  color: #3fc950;
 
 }
 .header-name {
   font-weight: 600;
-  color: rgb(230, 241, 255);
+  color: #3fc950;
 }
 
 .column-header {
@@ -95,7 +102,7 @@ p {
 }
 
 .dark-mode-text {
-  color: #bdb9bf !important;
+  color: #3fc950 !important;
 }
 
 .icon-btn {
